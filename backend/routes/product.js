@@ -94,7 +94,7 @@ router.post('/category',async(req,res,next)=>{
     }
     catch(err)
     { 
-        res.status(403).send(err);
+        res.status(403).send(err); 
     } 
 });
 
